@@ -1,0 +1,174 @@
+  /** Start of timeline.html**/
+    * {
+      padding: 0;
+      margin: 0;
+      font-family: 'Fredoka One', cursive;
+      font-size: 14px;
+      
+    }
+
+    * {
+  scroll-behavior: smooth;
+}
+
+    .container {
+      width: 100vw;
+      height: 100vh;
+    }
+
+    .timeline {
+      overflow:hidden;
+      height: 100%;
+      width: 100%;
+      float: left;
+    }
+
+    .timeline-item {
+      height: 100vh;
+      width: 100%;
+      background-size:cover;
+    }
+
+    .timeline-container {
+      position: relative;
+      text-align: right;
+      top: 50%;
+      transform: translateY(-50%);
+      float: right;
+      padding-right: 27%;
+      width: 500px;
+    }
+
+    .timeline-title {
+      font-size: 64px;
+      font-weight: bolder;
+
+    }
+
+    .timeline-date {
+      font-size: 24px;
+      font-weight: 400;
+      font-style: italic;
+      font-family: arial;
+      color:yellow;
+    }
+
+    .timeline-description {
+      font-size: 17px;
+      font-weight: 400;
+      margin-top: 10px;
+      font-family: arial;
+    }
+
+    .scrollbar {
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.50));
+      right:0;
+      height: 100%;
+      width: 20%;
+      border-left:solid thin white;
+      position:absolute;
+    }
+
+    .date-container {
+      position: relative;
+      top: 50%;
+      text-align: center;
+      transform: translateY(-50%);
+
+    }
+
+    .date-label {
+      color: gray;
+      font-size: 17px;
+      font-weight: 400;
+      margin-top: 15px;
+      font-family: arial;
+    }
+
+    .date-link:hover {
+      color: white;
+      cursor: pointer;
+      transition: 0.5s;
+
+    }
+
+    .date-link{
+      color: gray;
+      font-size: 17px;
+      font-weight: 400;
+      margin-top: 15px;
+      font-family: arial;
+      text-decoration:none;
+      color:gray;
+    }
+
+    /** End of timeline.php**/
+
+/** Start of timeline.php**/
+ 
+.optionBar {
+  position: relative;
+  float: right;
+  padding-right: 27%;
+  width: 500px;
+  transform: translate(55%, 150%);
+}
+/**index.php style**/
+.headerNav{
+  background-color:#435d7d;
+  padding:15px;
+ }
+ .headerMessage{
+     padding:10px;
+     color:white;
+     font-size:20px;
+ }
+ .tableHistory{
+
+     padding:40px;
+ }
+
+ .addBtn{
+
+     float:right;
+ }
+/**end of index.php style/
+
+/* Modal styles */
+.modal .modal-dialog {
+  max-width: 400px;
+}
+.modal .modal-header, .modal .modal-body, .modal .modal-footer {
+  padding: 20px 30px;
+}
+.modal .modal-content {
+  border-radius: 3px;
+}
+.modal .modal-footer {
+  background: #ecf0f1;
+  border-radius: 0 0 3px 3px;
+}
+  .modal .modal-title {
+      display: inline-block;
+  }
+.modal .form-control {
+  border-radius: 2px;
+  box-shadow: none;
+  border-color: #dddddd;
+}
+.modal textarea.form-control {
+  resize: vertical;
+}
+.modal .btn {
+  border-radius: 2px;
+  min-width: 100px;
+}	
+.modal form label {
+  font-weight: normal;
+}	
+
+input {
+  width: 100%;
+}
+/* end of Modal styles */
+/** End of timeline.php**/
